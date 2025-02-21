@@ -91,14 +91,11 @@ export function College() {
         A premier institution committed to excellence in education, research,
         and innovation.
       </p>
-      <button className=" bg-blue-300 text-white mb-3  flex items-end justify-end text-md">
-        Wait for auto scrolling
-      </button>
 
       {/* Auto-scrolling University Images */}
-      <div className="relative h-[100vh] w-full overflow-hidden">
+      <div className="relative h-[100vh] w-full ">
         <motion.div
-          initial={{ y: "100%" }}
+          initial={{ x: 0 }}
           animate={{ y: "-100%" }}
           transition={{ repeat: Infinity, duration: 50, ease: "linear" }}
           className="absolute w-full "

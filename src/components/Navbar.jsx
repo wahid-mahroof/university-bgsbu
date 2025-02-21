@@ -12,18 +12,18 @@ export function Navbar() {
       initial={{ y: -50 }}
       animate={{ y: 0 }}
       transition={{ duration: 0.5 }}
-      className="p-6 bg-gradient-to-r from-slate-400 to-black text-white flex justify-between items-center shadow-lg fixed top-0 left-0 right-0 z-50"
+      className="p-6 bg-gradient-to-r from-purple-300 via-blue-300 to-pink-300 text-white flex justify-between items-center shadow-lg fixed top-0 left-0 right-0 z-50"
     >
       <Link
         to="/"
-        className="text-2xl font-extrabold tracking-wide uppercase text-slate-300"
+        className="text-2xl font-extrabold tracking-wide uppercase text-slate-700"
       >
         Baba Ghulam shah Badshah University
       </Link>
-      <div className="hidden md:flex space-x-8 text-lg ">
+      <div className="hidden md:flex space-x-8 text-lg text-gray-700 font-bold">
         <Link
           to="/"
-          className="hover:text-gray-200 transition duration-300 hover:scale-125 "
+          className="hover:text-pgray-200 transition duration-300 hover:scale-125 "
         >
           Home
         </Link>
@@ -56,7 +56,7 @@ export function Navbar() {
       </div>
       {isOpen && (
         <motion.div
-          initial={{ opacity: 0 }}
+          initial={{ opacity: 0.8, scale: 1 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.5 }}
           className="absolute top-16 left-0 w-full bg-black bg-opacity-90 text-white flex flex-col items-center space-y-6 py-6 md:hidden"

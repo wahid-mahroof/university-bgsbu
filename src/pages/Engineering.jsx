@@ -12,16 +12,26 @@ export function Engineering() {
       transition={{ duration: 0.5 }}
       className="p-20 text-center"
     >
-      <h2 className="text-4xl font-bold mb-4">
+      <h2 className="text-4xl font-bold mb-4 uppercase">
         {formattedDepartment} Department
       </h2>
-      <p className="text-lg">
+      <p className="text-2xl text-slate-200">
         Explore the courses, faculty, and research opportunities in{" "}
-        {formattedDepartment}.
+        {formattedDepartment}.{" "}
       </p>
+      <div>
+        <span className="text-sm text-gray-800 max-w-xl underline">
+          The Engineering function will cover some or all of the following
+          definition within its business: Invents, researches, develops,
+          designs, stimulates, controls, builds, tests, improves, validates,
+          maintains and project manages: structures; machines; devices; systems;
+          vehicles; components; materials;
+        </span>
+      </div>
+
       <div className="mt-10">
         <img
-          src={`/images/${department}.jpg`}
+          src="https://risingkashmir.blr1.digitaloceanspaces.com/wp-content/uploads/2024/05/23005419/BGSBU.jpg"
           alt={formattedDepartment}
           className="w-full max-w-3xl mx-auto rounded-lg shadow-lg"
         />
