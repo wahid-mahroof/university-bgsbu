@@ -8,7 +8,7 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Contact from "./pages/Contact";
 import DepartmentDetails from "./pages/DepartmentDetails";
-import university from "./pages/university";
+import College from "./pages/College";
 
 function App() {
   return (
@@ -19,7 +19,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/departments" element={<Departments />} />
-            <Route path="/university" element={<university />} />
+            <Route path="/visit" element={<College />} />
 
             <Route path="/engineering/:department" element={<Engineering />} />
             <Route path="/contact" element={<Contact />} />

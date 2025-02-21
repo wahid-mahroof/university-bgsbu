@@ -34,10 +34,10 @@ export function Navbar() {
           Departments
         </Link>
         <Link
-          to="/university"
+          to="/visit"
           className="hover:text-gray-200 transition duration-300 hover:scale-125 "
         >
-          University
+          Visit
         </Link>
         <Link
           to="/contact"
