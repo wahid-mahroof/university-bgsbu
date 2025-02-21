@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import React from "react";
 
-export function University() {
+export function university() {
   const universityImages = [
     {
       src: "https://www.bgsbu.ac.in/public/assets/img/ID1.jpeg",
@@ -121,4 +121,4 @@ export function University() {
   );
 }
 
-export default University;
+export default university;

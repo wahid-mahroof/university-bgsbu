@@ -8,7 +8,7 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Contact from "./pages/Contact";
 import DepartmentDetails from "./pages/DepartmentDetails";
-import University from "../pages/University";
+import university from "./pages/university";
 
 function App() {
   return (
