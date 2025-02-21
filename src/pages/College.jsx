@@ -110,7 +110,7 @@ export function College() {
                 alt={image.caption}
                 className="w-full h-full object-cover rounded-lg shadow-lg"
               />
-              <p className="text-3xl font-bold mt-2 border p-3 bg-gray-800">
+              <p className="text-3xl font-bold mt-2 border p-3 bg-gray-800 grid grid-col-1">
                 {image.caption}
               </p>
             </div>

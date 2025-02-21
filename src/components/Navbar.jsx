@@ -77,10 +77,10 @@ export function Navbar() {
             Contact
           </Link>
           <Link
-            to="/university"
+            to="/visit"
             className="hover:text-gray-300 transition duration-300"
           >
-            University
+            Visit
           </Link>
         </motion.div>
       )}

@@ -56,7 +56,7 @@ export function Home() {
         <div className="mt-10 p-6">
           <h2 className="text-4xl font-bold text-center mb-6">Campus Tour</h2>
           <div
-            className=" overflow-x-auto space-x-6 p-4 scrollbar-hide grid grid-cols-4 gap-4"
+            className=" overflow-x-auto space-x-6 p-4 scrollbar-hide grid grid-cols-1 gap-4 lg:grid lg:grid-cols-4"
             whileHover={{ scale: 1.5, x: "50%", y: "-10%" }}
             transition={{ duration: 0.5 }}
           >
@@ -67,7 +67,7 @@ export function Home() {
                 key={index}
                 src={image}
                 alt="University View"
-                className="w-80 h-48 object-cover rounded-xl shadow-lg"
+                className="w-80 h-48 object-cover rounded-xl shadow-lg md:grid grid-cols-1 sm:grid grid-col-1"
               />
             ))}
           </div>
